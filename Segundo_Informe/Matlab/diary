@@ -1,0 +1,19 @@
+J =
+ 
+[ b2*cos(q1) - cos(q2)*sin(q1)*(d3 + l3), -cos(q1)*sin(q2)*(d3 + l3), cos(q1)*cos(q2)]
+[ b2*sin(q1) + cos(q1)*cos(q2)*(d3 + l3), -sin(q1)*sin(q2)*(d3 + l3), cos(q2)*sin(q1)]
+[                                      0,          cos(q2)*(d3 + l3),         sin(q2)]
+ 
+  2        2        3     2        2        3     2        3        2     2        3        2     2        2                2
+d3  cos(q1)  cos(q2)  + l3  cos(q1)  cos(q2)  + d3  cos(q2)  sin(q1)  + l3  cos(q2)  sin(q1)  + d3  cos(q1)  cos(q2) sin(q2)
+
+       2        2                2     2                2        2     2                2        2                  2        3
+   + l3  cos(q1)  cos(q2) sin(q2)  + d3  cos(q2) sin(q1)  sin(q2)  + l3  cos(q2) sin(q1)  sin(q2)  + 2 d3 l3 cos(q1)  cos(q2)
+
+                    3        2                  2                2                          2        2
+   + 2 d3 l3 cos(q2)  sin(q1)  + 2 d3 l3 cos(q1)  cos(q2) sin(q2)  + 2 d3 l3 cos(q2) sin(q1)  sin(q2)
+
+                 2
+cos(q2) (d3 + l3)
+
+diary off

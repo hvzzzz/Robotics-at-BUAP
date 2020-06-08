@@ -1,0 +1,26 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Reyes%
+}{%
+Reyes%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+reyes2011robotica}
+\APACinsertmetastar {%
+reyes2011robotica}%
+\begin{APACrefauthors}%
+Reyes, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\newblock
+\APACrefbtitle {Rob{\'o}tica-Control de robots manipuladores}
+  {Rob{\'o}tica-control de robots manipuladores}.
+\newblock
+\APACaddressPublisher{}{Alfaomega grupo editor}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
