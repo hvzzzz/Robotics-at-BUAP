@@ -1,0 +1,10 @@
+format short;
+ti=0;h=0.001;tfinal=5;ts=ti:h:tfinal;
+opciones=odeset('RelTol',1e-6,'InitialStep',h,'Maxstep',h);
+x0=1;
+[t x]=ode45('my_fun',ts,x0,opciones);
+c=1;y=c*x;
+y_aux=x0*exp(-2*t);
+subplot(3,1,1);plot(t,x);
+subplot(3,1,2);plot(t,y_aux);
+subplot(3,1,3);plot(t,x,t,y_aux);
